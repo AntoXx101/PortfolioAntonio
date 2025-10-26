@@ -1,0 +1,40 @@
+---
+import HeroImage from '@assets/hero.webp';
+---
+
+<section class="w-full flex justify-around py-20 text-white items-center">
+    <div class="grid grid-cols-1 gap-4 w-1/5">
+        <button class="bg-purple-800 py-2 px-4 rounded-full w-40">aaaaaa</button>
+        <h1 class="text-5xl font-bold">FontEnd</br><span>Developer</span></h1>
+        <span>CEO de Trappy</span>
+        <div class="grid grid-cols-3 gap-4 mt-4 z-10">
+            <div class="bg-white rounded-xl h-15 col-span-2"></div>
+            <div class="bg-white rounded-xl h-15 col-span-1"></div>
+
+            <div class="bg-white rounded-xl h-15 col-span-1"></div>
+            <div class="bg-white rounded-xl h-15 col-span-2"></div>
+        </div>
+        <div class="flex flex-nowrap gap-16">
+            <div class="relative flex justify-center items-center group">
+                <div class="rounded-2xl p-2 group-hover:bg-white group-hover:blur-xl absolute group-hover:top-0 group-hover:left-0 top-6 left-6 blur-sm opacity-40 size-0 group-hover:size-16 transition-all duration-500">
+                </div>
+                <button class="bg-purple-800 rounded-xl size-12 absolute top-2 left-2">x</button>
+            </div>
+            
+            <div class="relative flex justify-center items-center group">
+                <div class="rounded-2xl p-2 group-hover:bg-white group-hover:blur-xl absolute group-hover:top-0 group-hover:left-0 top-6 left-6 blur-sm opacity-40 size-0 group-hover:size-16 transition-all duration-500">
+                </div>
+                <button class="bg-purple-800 rounded-xl size-12 absolute top-2 left-2">x</button>
+            </div>
+
+            <div class="relative flex justify-center items-center group">
+                <div class="rounded-2xl p-2 group-hover:bg-white group-hover:blur-xl absolute group-hover:top-0 group-hover:left-0 top-6 left-6 blur-sm opacity-40 size-0 group-hover:size-16 transition-all duration-500">
+                </div>
+                <button class="bg-purple-800 rounded-xl size-12 absolute top-2 left-2">x</button>
+            </div>
+        </div>
+    </div>
+    <div>
+        <img src={HeroImage.src} alt="Imagen desarrollador web">
+    </div>
+</section>
